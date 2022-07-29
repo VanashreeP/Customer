@@ -13,5 +13,8 @@ public interface CustomerService {
 	List<Customers> getAllCustomers();
 	Customers getCustomerById(int id);
 	Customers getCustomerByName(String name);
+	List<Customers> findAll();
+	Customers findById(int id);
+	Customers findByName(String name);
 
 }
